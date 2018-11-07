@@ -1,0 +1,16 @@
+println "Hello World"
+
+public class Main{
+	def display(x){
+		println("Displaying -> "+x)
+	}
+}
+
+m = new Main()
+m.display("Hello World")
+m.display(22)
+
+y = "A value in a variable"
+m.display(y)
+
+
