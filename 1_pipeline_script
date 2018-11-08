@@ -10,6 +10,9 @@ node{
 	stage('Deliver'){
 		sh 'echo packge ready for archive!!'
 	}
+	stage('Release'){
+		sh 'echo package reagy to release!!'
+	}
 
 	stage('Deploy'){
 		sh 'echo we are deploying'
